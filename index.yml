@@ -7,12 +7,8 @@ contacts:
   - displayName: Reid Jackson
     pictureUrl: https://avatars.githubusercontent.com/u/72239107?v=4
     homePageUrl: https://github.com/rlj0713
+files:
+  - path: course1/unit1/lesson1/lessonpart1/test.py
+    content: print('hello')
 units:
-  - id: unit1
-    title: Unit 1
-    lessons:
-      - id: lesson1
-        title: Lesson 1
-        lessonParts:
-          - id: lessonpart1
-            title: Page 1
+  - unit1/index.yml
